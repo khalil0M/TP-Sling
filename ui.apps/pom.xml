@@ -29,9 +29,9 @@
                             SLING-INF/nodetypes/nodetypes.cnd
                         </Sling-Nodetypes>
                         <Sling-Initial-Content>
-                            SLING-INF/apps;overwrite:=true;uninstall:=true;path:=/apps,
+                            SLING-INF/apps/inscription-etudiant;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant,
                             SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,
-                            SLING-INF/etc;overwrite:=true;uninstall:=true;path:=/etc
+                            SLING-INF/etc/session2018;overwrite:=true;uninstall:=true;path:=/etc/session2018
                         </Sling-Initial-Content>
                     </instructions>
                 </configuration>

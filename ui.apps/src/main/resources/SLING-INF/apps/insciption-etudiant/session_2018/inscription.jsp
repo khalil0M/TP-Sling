@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<form action="/content/inscriptionapp/inscription/*" method="post" enctype="multipart/form-data">
+<form action="/content/inscriptionapp/inscriptions/*" method="post" enctype="multipart/form-data">
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" id="email">

@@ -6,15 +6,15 @@
         <additionalProperties>
           <property key="Bundle-Description" value="Contact List - Apache Sling Application" />
           <property key="Sling-Nodetypes" value="SLING-INF/nodetypes/nodetypes.cnd" />
-          <property key="Sling-Initial-Content" value="SLING-INF/apps/inscription-etudiant;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant,SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,SLING-INF/etc;overwrite:=true;uninstall:=true;path:=/etc" />
-          <property key="Bundle-Name" value="sling-contact-list" />
-          <property key="Include-Resource" value="SLING-INF/apps/inscription-etudiant/inscription.jsp=$MODULE_DIR$/src/main/resources/SLING-INF/apps/inscription-etudiant/inscription.jsp,SLING-INF/content/excercicesapp.json=$MODULE_DIR$/src/main/resources/SLING-INF/content/inscriptionapp.json,SLING-INF/etc/css/style.css=$MODULE_DIR$/src/main/resources/SLING-INF/etc/css/style.css,SLING-INF/etc/js/app.js=$MODULE_DIR$/src/main/resources/SLING-INF/etc/js/app.js,SLING-INF/nodetypes/nodetypes.cnd=$MODULE_DIR$/src/main/resources/SLING-INF/nodetypes/nodetypes.cnd" />
+          <property key="Sling-Initial-Content" value="SLING-INF/apps/inscription-etudiant/session_2018;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant/session_2018,SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,SLING-INF/etc/session2018;overwrite:=true;uninstall:=true;path:=/etc/session2018" />
+          <property key="Bundle-Name" value="inscription-etudiant" />
+          <property key="Include-Resource" value="SLING-INF/apps/inscription-etudiant/session2018/inscription.jsp=$MODULE_DIR$/src/main/resources/SLING-INF/apps/inscription-etudiant/session_2018/inscription.jsp,SLING-INF/content/excercicesapp.json=$MODULE_DIR$/src/main/resources/SLING-INF/content/inscriptionapp.json,SLING-INF/etc/css/style.css=$MODULE_DIR$/src/main/resources/SLING-INF/etc/session2018/css/style.css,SLING-INF/etc/session2018/js/app.js=$MODULE_DIR$/src/main/resources/SLING-INF/etc/session2018/js/app.js,SLING-INF/nodetypes/nodetypes.cnd=$MODULE_DIR$/src/main/resources/SLING-INF/nodetypes/nodetypes.cnd" />
         </additionalProperties>
         <additionalJARContents />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
