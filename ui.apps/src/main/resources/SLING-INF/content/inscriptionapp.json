@@ -1,0 +1,9 @@
+{
+  "jcr:primaryType" : "nt:unstructured",
+  "sling:resourceType" : "inscription-etudiant",
+
+  "inscription" : {
+    "jcr:primaryType" : "nt:unstructured"
+  }
+
+}
