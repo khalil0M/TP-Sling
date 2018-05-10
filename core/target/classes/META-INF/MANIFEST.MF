@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1525908075829
+Bnd-LastModified: 1525959331920
 Build-Jdk: 1.8.0_121
 Built-By: CitySystem
-Bundle-Description: core - contacts-core
+Bundle-Description: My_ArtifactId - contacts-core
 Bundle-ManifestVersion: 2
 Bundle-Name: contacts-core
 Bundle-SymbolicName: My_GroupId.core
