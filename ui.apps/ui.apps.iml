@@ -4,11 +4,11 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="ui.apps-1.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="com.xicojunior.ui.apps" bundleVersion="1.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Bundle-Description" value="Contact List - Apache Sling Application" />
+          <property key="Bundle-Description" value="Inscription Student - Apache Sling Application" />
           <property key="Sling-Nodetypes" value="SLING-INF/nodetypes/nodetypes.cnd" />
-          <property key="Sling-Initial-Content" value="SLING-INF/apps/inscription-etudiant/session_2018;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant/session_2018,SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,SLING-INF/etc/session2018;overwrite:=true;uninstall:=true;path:=/etc/session2018" />
+          <property key="Sling-Initial-Content" value="SLING-INF/apps/inscription-etudiant/session_2018;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant/session_2018,SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,SLING-INF/etc/inscription-etudiant;overwrite:=true;uninstall:=true;path:=/etc/inscription-etudiant" />
           <property key="Bundle-Name" value="inscription-etudiant" />
-          <property key="Include-Resource" value="SLING-INF/apps/inscription-etudiant/session2018/inscription.jsp=$MODULE_DIR$/src/main/resources/SLING-INF/apps/inscription-etudiant/session_2018/inscription.jsp,SLING-INF/content/excercicesapp.json=$MODULE_DIR$/src/main/resources/SLING-INF/content/inscriptionapp.json,SLING-INF/etc/css/style.css=$MODULE_DIR$/src/main/resources/SLING-INF/etc/session2018/css/style.css,SLING-INF/etc/session2018/js/app.js=$MODULE_DIR$/src/main/resources/SLING-INF/etc/session2018/js/app.js,SLING-INF/nodetypes/nodetypes.cnd=$MODULE_DIR$/src/main/resources/SLING-INF/nodetypes/nodetypes.cnd" />
+          <property key="Include-Resource" value="SLING-INF/apps/inscription-etudiant/session_2018/inscription.jsp=$MODULE_DIR$/src/main/resources/SLING-INF/apps/inscription-etudiant/session_2018/inscription.jsp,SLING-INF/content/inscriptionapp.json=$MODULE_DIR$/src/main/resources/SLING-INF/content/inscriptionapp.json,SLING-INF/etc/inscription-etudiant/css/style.css=$MODULE_DIR$/src/main/resources/SLING-INF/etc/inscription-etudiant/css/style.css,SLING-INF/etc/inscription-etudiant/js/app.js=$MODULE_DIR$/src/main/resources/SLING-INF/etc/inscription-etudiant/js/app.js,SLING-INF/nodetypes/nodetypes.cnd=$MODULE_DIR$/src/main/resources/SLING-INF/nodetypes/nodetypes.cnd" />
         </additionalProperties>
         <additionalJARContents />
       </configuration>

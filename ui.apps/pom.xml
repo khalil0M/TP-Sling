@@ -31,7 +31,7 @@
                         <Sling-Initial-Content>
                             SLING-INF/apps/inscription-etudiant;overwrite:=true;uninstall:=true;path:=/apps/inscription-etudiant,
                             SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,
-                            SLING-INF/etc/session2018;overwrite:=true;uninstall:=true;path:=/etc/session2018
+                            SLING-INF/etc/inscription-etudiant;overwrite:=true;uninstall:=true;path:=/etc/inscription-etudiant
                         </Sling-Initial-Content>
                     </instructions>
                 </configuration>

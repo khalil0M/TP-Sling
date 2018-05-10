@@ -8,11 +8,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <groupId>My_GroupId</groupId>
     <artifactId>core</artifactId>
     <packaging>bundle</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>contacts-core</name>
-    <description>core - contacts-core</description>
+    <description>My_ArtifactId - contacts-core</description>
     <build>
         <plugins>
             <plugin>
